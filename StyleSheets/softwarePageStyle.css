@@ -1,12 +1,24 @@
 body{
     
     margin: 0px;
+    background-color: hsl(0, 0%, 0%);
+    color:aliceblue;
 }
 main{
     margin: 20px;
 }
 h1{
     text-align: center;
+}
+.container{
+    display: flex;
+    
+}
+.box{
+    width: 3000px;
+    height: 150px;
+    font-size: 2em;
+    text-align: left;
 }
 .navbarS ul{
     list-style-type: none;

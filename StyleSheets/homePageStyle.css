@@ -1,6 +1,8 @@
 body{
     
     margin: 0px;
+    background-color: hsl(0, 0%, 0%);
+    color:aliceblue;
 }
 main{
     margin: 20px;
