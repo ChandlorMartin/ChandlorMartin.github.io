@@ -12,14 +12,18 @@ h1{
 }
 .container{
     display: flex;
-    
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;    
 }
 .box{
-    width: 3000px;
+    width: 300px;
     height: 150px;
     font-size: 2em;
     text-align: left;
 }
+
 .navbarS ul{
     list-style-type: none;
     background-color: hsl(0, 0%, 25%);
