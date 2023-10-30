@@ -1,3 +1,13 @@
+.titleAnimation{
+    background-color: #EBEBEB;
+    height: 500px;
+}
+.personalStatistics{
+    list-style: none;
+}
+.aboutMe{
+    width: 40%;
+}
 body{
     
     margin: 0px;
@@ -9,4 +19,18 @@ main{
 }
 h1{
     text-align: center;
+}
+
+
+#cursor{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    left: var(--mouse-x);
+    top: var(--mouse-y);
+    
 }

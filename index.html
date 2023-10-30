@@ -6,9 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="StyleSheets/homePageStyle.css">
-  <link rel="stylesheet" href="../StyleSheets/navBarStyle.css">
+  <link rel="stylesheet" href="./StyleSheets/navBarStyle.css">
 </head>
+
+<!--style>
+  #circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+  }
+</style-->
   <body>
+
     <nav class="navbar">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -16,11 +27,39 @@
           <li><a href="Pages/software.html">Software</a></li>
           <li><a href="Pages/projects.html">Projects</a></li>
         </ul>
-      
     </nav>
 
-    <main>
-      Home page
-    </main>
+    <!--div class = "titleAnimation">box</div-->
+
+    <table class="aboutMeStats">
+      <tr>
+        <th colspan="2">About Me</th> 
+      </tr>
+
+      <tr>
+        <td><img src="./Images/Languages/c++.png" width="200"></th>
+          <td>
+            <ul class = "personalStatistics">
+              <li>Name: Chandlor Martin</li>
+              <li>Age: 26 Years Old</li>
+              <li>Gender: Male</li>
+              <li>Major: Bachelor's in Software Engineering Technology</li>
+            </ul>
+          </td>
+      </tr>
+    </table>
+
+    <br>
+    <div class = "aboutMe">
+      My name is Chandlor Martin and I am a full-stack engineer.
+      To me, programming is like solving a puzzle where your finished program is the answer.
+      Finding that answer is a great joy to me and why I decided to become a software engineer.
+      I already have a well-sized set of skills and I hope to continue to learn everything I can about software engineering as I further my career.
+    </div>
+
+
+    <div id="cursor"></div>
+    <script src="index.js"></script>
+        
   </body>
 </html>
