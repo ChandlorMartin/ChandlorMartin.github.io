@@ -1,15 +1,40 @@
-.titleAnimation{
-    background-color: #EBEBEB;
-    height: 500px;
-}
+
 .personalStatistics{
     list-style: none;
 }
-.aboutMe{
-    width: 40%;
+/* .box1{
+    width: 100vw;
+    height: 160px;
 }
+
+.box2{
+    width: 36vw;
+    height: 50px;
+} */
+
+/* .box3{
+    width: 33vw;
+    height: 300px;
+} */
+
+/* .aboutMe{
+    width: 30%;
+    /*margin-left: 5%; 
+    position:absolute;
+    bottom:10%;
+    left: 10px;
+} */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    align-content: flex-start;
+}
+
 body{
-    
+
     margin: 0px;
     background-color: hsl(0, 0%, 0%);
     color:aliceblue;
@@ -17,8 +42,17 @@ body{
 main{
     margin: 20px;
 }
-h1{
-    text-align: center;
+
+#background-video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom:0;
+    z-index: -1;
 }
 
 
@@ -32,5 +66,5 @@ h1{
     pointer-events: none;
     left: var(--mouse-x);
     top: var(--mouse-y);
-    
+
 }
