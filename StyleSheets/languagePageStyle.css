@@ -162,5 +162,4 @@ and (min-aspect-ratio: 7/4){
     pointer-events: none;
     left: var(--mouse-x);
     top: var(--mouse-y);
-    
 }
