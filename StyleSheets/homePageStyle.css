@@ -33,7 +33,7 @@ img{
     display: flex;
     flex-direction: column;
     color:aliceblue;
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 header,footer{
@@ -224,17 +224,28 @@ footer{
     .card{
         width: min(calc(33% - 1rem), 500px);
         visibility: hidden;
+        height: 10px;
+        font-size: 0.5rem;
     } 
+    .card p{
+        font-size: 0.5rem;
+    }
+
+    .card img {
+        border: 5px double #333;
+        border-radius: 20%;
+        height: 10%;
+    }
 
     #background-video{
-        object-fit: cover;
-        height: 100%;
-        width: 100%;
-        position: fixed;
+        object-fit:fill;
+        height: 50%;
+        width: 50%;
+        position: absolute;
         top:0;
         left:0;
         right: 0;
-        bottom:0;
+
         z-index: -1;
         visibility:visible;
     }
@@ -242,45 +253,46 @@ footer{
     #pfp{
         visibility: visible;
         position: absolute;
-        top: 1%;
+        top: 15%;
         right: 5%;
-        width: 25%;
-        height: 25%;
+        width: 15%;
         
     }
 
     #aboutMe{
+
+        color: rgb(248, 249, 249);
         visibility: visible;;
         position: absolute;
         bottom: 10%;
         left: 5%;
-        width : 20%;
-        font-size: 1.35rem;
+        width : 15%;
+        font-size: 1rem;
     }
     
 }
 
 /*  MOBILE LANDSCAPE */
 
-@media screen and (max-height: 425px) 
+/* @media screen and (max-height: 425px) 
 and (min-aspect-ratio: 7/4){
     h1{
         font-size: 1.5rem;
     }
     main{
-        flex-flow: row nowrap;
+        flex-flow: row ;
         justify-content: space-evenly;
-        align-items: stretch;
+        
     }
 
     .card{
-        width: min(calc(33% - 0.25rem), 200px);
+        width: min(calc(33% - 1rem), 200px);
 
     } 
     .card figcaption, .card p {
         font-size: 1.25rem;
     }
-}
+} */
 
 #cursor{
     position: absolute;
