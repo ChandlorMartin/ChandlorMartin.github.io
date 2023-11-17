@@ -7,46 +7,46 @@
   <title>Document</title>
   <link rel="stylesheet" href="StyleSheets/homePageStyle.css">
   <link rel="stylesheet" href="./StyleSheets/navBarStyle.css">
+  <link rel="stylesheet" href="./StyleSheets/backgroundVideoStyle.css">
 </head>
-
-<!--style>
-  #circle {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: red;
-    position: absolute;
-  }
-</style-->
   <body>
-
     <nav class="navbar">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Pages/languages.html">Languages</a></li>
-          <li><a href="Pages/software.html">Software</a></li>
-          <li><a href="Pages/projects.html">Projects</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Pages/languages.html">Languages</a></li>
+        <li><a href="Pages/software.html">Software</a></li>
+        <li><a href="Pages/projects.html">Projects</a></li>
+        <li><a href="Pages/projectBase.html">Projects</a></li>
+      </ul>
     </nav>
-
-    <!-- <video id="background-video"  autoplay loop muted>
-      <source src = "Videos/home.mp4" type="video/mp4">
-    </video> -->
-
-
 
     <main>
       <video id="background-video"  autoplay loop muted>
         <source src = "Videos/home.mp4" type="video/mp4">
       </video>
-      <img id="pfp" src="./Images/Languages/c++.png">
-    
 
-      
+
+      <div id="container">
+        <figure id = "pfp">
+          <img src="./Images/pfp.png">
+        </figure>
+
+          <br>
+          <p> My name is Chandlor Martin and I am a full-stack engineer. Having attended the Oregon Institute of Technology,
+            I now strive to increase my knowledge as a software engineer and master my craft.
+          </p>
+          
+        
+
+      </div>
+
+      <!-- <figure id = "pfp">
+        <img src="./Images/pfp.png">
+      </figure> -->
 
       <article id="C" class = "card">
         <figure>
-          <img src="../Images/Languages/c.png" alt="C" width="500" height="500">
+          <img src="./Images/pfp.png" alt="C" width="500" height="500">
           <figcaption>Chandlor Martin</figcaption>
         </figure> 
         <p>My name is Chandlor Martin and I am a full-stack engineer.
@@ -56,15 +56,14 @@
         </p>
       </article>
 
-      <div id = "aboutMe">
+      <!-- <div id = "aboutMe">
         <p>My name is Chandlor Martin and I am a full-stack engineer.
           To me, programming is like solving a puzzle where your finished program is the answer.
           Finding that answer is a great joy to me and why I decided to become a software engineer.
           I already have a well-sized set of skills and I hope to continue to learn everything I can about software engineering as I further my career.
         </p>
-      </div>
+      </div> -->
 
     </main>
-        
   </body>
 </html>

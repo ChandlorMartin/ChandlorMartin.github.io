@@ -7,8 +7,10 @@
   <title>Document</title>
   <link rel="stylesheet" href="../StyleSheets/cardPageStyle.css">
   <link rel="stylesheet" href="../StyleSheets/navBarStyle.css">
+  <link rel="stylesheet" href="../StyleSheets/backgroundVideoStyle.css">
 </head>
   <body>
+
   <header>
     <nav class="navbar">
       <ul>
@@ -20,57 +22,96 @@
     </nav>
   </header>
     
+  <video id="background-video"  autoplay loop muted>
+    <source src = "../Videos/home.mp4" type="video/mp4">
+  </video>
 
     <main>
-      <article id="Eclipse" class = "card">
-        <figure>
-          <img src="../Images/Software/eclipseIcon.png" alt="Eclipse" width="500" height="500">
-          <figcaption>Eclipse</figcaption>
-        </figure> 
-      </article>
 
-      <article id="GitHub" class = "card">
-        <figure>
-          <img src="../Images/Software/gitHubIcon.png" alt="GitHub" width="500" height="500">
-          <figcaption>GitHub</figcaption>
-        </figure> 
-      </article>
+      <div id="TOC">
+       <h1>Table of Contents</h1>
+       <ul>
+         <li><a href="#FrameWork">Frameworks</a></li>
+         <li><a href="#Ide">Ides</a></li>
+         <li><a href="#CDCI">CD/CI</a></li>
+       </ul>
+      </div>
 
-      <article id="GitLab" class = "card">
-        <figure>
-          <img src="../Images/Software/gitLabIcon.png" alt="GitLab" width="500" height="500">
-          <figcaption>GitLab</figcaption>
-        </figure> 
-      </article>
+      <h2 id="Frameworks">Frameworks</h2>
+      <div class="section">
+        <article id="Angular" class = "card">
+          <figure>
+            <img src="../Images/Software/angular.png" alt="Eclipse" width="500" height="500">
+            <figcaption>Angular</figcaption>
+          </figure> 
+          <p>Years: 1</p>
+        </article>
+      </div>
 
-      <article id="Jenkins" class = "card">
-        <figure>
-          <img src="../Images/Software/jenkinsIcon.png" alt="Jenkins" width="500" height="500">
-          <figcaption>Jenkins</figcaption>
-        </figure> 
-      </article>
 
-      <article id="MSVC" class = "card">
-        <figure>
-          <img src="../Images/Software/microsoftVisualStudioIcon.png" alt="MSVC" width="500" height="500">
-          <figcaption>MSVC</figcaption>
-        </figure> 
-      </article>
+      <h2 id="Ide">IDES</h2>
+      <div class="section">
+       <article id="Eclipse" class = "card">
+         <figure>
+           <img src="../Images/Software/eclipseIcon.png" alt="Eclipse" width="500" height="500">
+           <figcaption>Eclipse</figcaption>
+         </figure> 
+         <p>Years: 3</p>
+       </article>
 
-      <article id="PyCharm" class = "card">
-        <figure>
-          <img src="../Images/Software/pyCharmIcon.png" alt="PyCharm" width="500" height="500">
-          <figcaption>PyCharm</figcaption>
-        </figure> 
-      </article>
+       <article id="MSVC" class = "card">
+         <figure>
+           <img src="../Images/Software/microsoftVisualStudioIcon.png" alt="MSVC" width="500" height="500">
+           <figcaption>MSVC</figcaption>
+         </figure> 
+         <p>Years: 4</p>
+       </article>
 
-      <article id="Visual Studio Code" class = "card">
-        <figure>
-          <img src="../Images/Software/visualStudioCodeIcon.png" alt="MSVC" width="500" height="500">
-          <figcaption>Visual Studio Code</figcaption>
-        </figure> 
-      </article>
+       <article id="PyCharm" class = "card">
+         <figure>
+           <img src="../Images/Software/pyCharmIcon.png" alt="PyCharm" width="500" height="500">
+           <figcaption>PyCharm</figcaption>
+         </figure> 
+         <p>Years: 2</p>
+       </article>
+
+       <article id="Visual Studio Code" class = "card">
+         <figure>
+           <img src="../Images/Software/visualStudioCodeIcon.png" alt="MSVC" width="500" height="500">
+           <figcaption>Visual Studio Code</figcaption>
+         </figure>
+         <p>Years: 3</p> 
+       </article>
+      </div>
+
+
+      <h2 id="CDCI">CD/CI</h2>
+      <div class="section">
+        <article id="Jenkins" class = "card">
+          <figure>
+            <img src="../Images/Software/jenkinsIcon.png" alt="Jenkins" width="500" height="500">
+            <figcaption>Jenkins</figcaption>
+          </figure> 
+          <p>Years: 2</p>
+        </article>
+
+        <article id="GitHub" class = "card">
+          <figure>
+            <img src="../Images/Software/gitHubIcon.png" alt="GitHub" width="500" height="500">
+            <figcaption>GitHub</figcaption>
+          </figure>
+          <p>Years: 4</p>
+        </article>
+  
+        <article id="GitLab" class = "card">
+          <figure>
+            <img src="../Images/Software/gitLabIcon.png" alt="GitLab" width="500" height="500">
+            <figcaption>GitLab</figcaption>
+          </figure> 
+          <p>Years: 2</p>
+        </article>
+      </div>
+
     </main>
-
   </body>
 </html>
